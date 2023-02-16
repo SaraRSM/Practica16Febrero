@@ -13,4 +13,8 @@ export class ProductListComponent {
   compartir() {
     window.alert('El producto ha sido compartido!');
   }
+
+  onNotify() {
+    window.alert('Se le notificara cuando el producto salga a la venta');
+  }
 }
