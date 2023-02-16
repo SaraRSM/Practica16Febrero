@@ -3,29 +3,39 @@ export interface Product {
   name: string;
   price: number;
   description: string;
+  stock: number;
 }
 
 export const products = [
   {
     id: 1,
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    name: 'Aretes de pato',
+    price: 50,
+    description: 'Par de accesorios para todo tipo de ocasión',
+    stock: 1,
   },
   {
     id: 2,
-    name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    name: 'Aretes de vaca',
+    price: 60,
+    description: 'Par de accesorios para todo tipo de ocasión',
+    stock: 0,
   },
   {
     id: 3,
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
-  }
+    name: 'Aretes de pringles',
+    price: 70,
+    description: 'Par de accesorios para todo tipo de ocasión',
+    stock: 1,
+  },
+  {
+    id: 4,
+    name: 'Aretes de manzana',
+    price: 70,
+    description: 'Par de accesorios para todo tipo de ocasión',
+    stock: 4,
+  },
 ];
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
